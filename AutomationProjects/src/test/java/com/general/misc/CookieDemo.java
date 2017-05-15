@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import com.automationprojects.common.Common;
 import org.openqa.selenium.Cookie;
-//import static com.automationprojects.common.GeneralConstants.*;
 
 public class CookieDemo extends Common {
   @Test

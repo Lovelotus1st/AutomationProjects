@@ -14,17 +14,17 @@ import org.testng.annotations.AfterClass;
 import com.automationprojects.common.Common;
 
 import static com.automationprojects.common.SeleniumEasyConstants.*;
-
+//Testing CheckBox
 public class CheckBoxDemoTest extends Common{
 	@BeforeSuite
 	public void hello(){
-		System.out.println("hello");
+		System.out.println("Start of Test Suite");
 	}
 	@AfterSuite
 	public void bye(){
-		System.out.println("bye");
+		System.out.println("End of Test Suit");
 	}
-  @Test(priority=1)
+  @Test
   public void TestgetCheckBoxDemo() {
 	  try{
 		  driver.findElement(By.xpath(XPATH_INPUT_FORM)).click();
@@ -36,7 +36,7 @@ public class CheckBoxDemoTest extends Common{
 		  Assert.fail();
 	  }
   }
-  @Test(priority=2)
+  @Test(dependsOnMethods="TestgetCheckBoxDemo")
   public void singleCheckBoxCheck(){
 	  try{
 		  driver.findElement(By.id(ID_SINGLE_CHECKBOX)).click();
@@ -59,19 +59,20 @@ public class CheckBoxDemoTest extends Common{
 	  }
   }
   
-  @Test(priority=4)
+  @Test
   public void grpCBCheckAll(){
 	  try{
 		  System.out.println("**********************");
 		  List<WebElement> chkBoxes=driver.findElements(By.xpath(XPATH_CB_GRP));
 		  int i=0;
+		  //count the check boxes selected
 		  for(WebElement element:chkBoxes){
 			  if (element.isSelected()){
 				  i=i+1;
 			  }
 		  }
 		  if(i==0){
-			  //System.out.println(i);
+			  //if none is selected click the check all button
 			  Assert.assertEquals(driver.findElement(By.xpath(XPATH_BTN_CHECKALL)).getAttribute("value"), "Check All");
 			  driver.findElement(By.xpath(XPATH_BTN_CHECKALL)).click();
 		  }
@@ -111,7 +112,7 @@ public class CheckBoxDemoTest extends Common{
 
   @AfterClass
   public void afterClass() {
-	  //driver.close();
+	  driver.close();
   }
 
 }

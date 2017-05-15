@@ -12,7 +12,7 @@ public class SimpleFormDemoTest extends Common {
   @Test
   public void getSimpleForm() {
 	  try{
-		  System.out.println("1");
+		  //System.out.println("1");
 		  driver.findElement(By.xpath(XPATH_INPUT_FORM)).click();
 		  driver.findElement(By.xpath(XPATH_SF)).click();
 		  Assert.assertEquals(driver.findElement(By.xpath(XPATH_SF_TEXT)).getText(), TEST_SF_TEXT);
@@ -24,7 +24,7 @@ public class SimpleFormDemoTest extends Common {
   @Test(dependsOnMethods={"getSimpleForm"})
   public void checkInputField(){
 	  try{
-		  System.out.println("2");
+		  //System.out.println("2");
 		  driver.findElement(By.xpath(XPATH_ENTER_MESSAGE)).sendKeys("Hello");
 		  driver.findElement(By.xpath(XPATH_SHOW_MESSAGE)).click();
 		  Assert.assertEquals(driver.findElement(By.xpath(XPATH_DISPLAY_MESSAGE)).getText(),"Hello");
@@ -37,7 +37,7 @@ public class SimpleFormDemoTest extends Common {
   @Test
   public void checkNumericField(){
 	  try{
-		  System.out.println("3");
+		  //System.out.println("3");
 		  driver.findElement(By.xpath(XPATH_ENTER_A)).sendKeys("7");
 		  driver.findElement(By.xpath(XPATH_ENTER_B)).sendKeys("7");
 		  driver.findElement(By.xpath(XPATH_GET_TOTAL)).click();
@@ -54,7 +54,7 @@ public class SimpleFormDemoTest extends Common {
 
   @AfterClass
   public void afterClass() {
-	 driver.close();
+	 //driver.close();
   }
 
 }

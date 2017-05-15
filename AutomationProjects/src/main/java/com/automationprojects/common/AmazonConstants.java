@@ -13,7 +13,7 @@ public interface AmazonConstants {
 	String SIGN_IN_SUCCESFUL_MSG="Hello,";
 	
 	String DRIVER_KEY="webdriver.chrome.driver";
-	String DRIVER_VALUE="D:\\InstallSoftware\\chromedriver.exe";
+	String DRIVER_VALUE="D:\\chromedriver.exe";
 	
 	String XPATH_DEPARTMENT=".//*[@id='nav-link-shopall']/span[2]";
 	String XPATH_SELECT_DEPARTMENT=".//*[@id='a-autoid-3-announce']";

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suit name="smoke test">
+	<test name="smoke test cases">
+		<classes>
+			<class name="com.amazon.automation"/>
+			<class name="com.seleniumeasy.inputforms"/>
+		</classes>
+	</test>
+</suit>

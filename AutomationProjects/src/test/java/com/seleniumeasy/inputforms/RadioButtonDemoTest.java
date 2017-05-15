@@ -15,7 +15,7 @@ import static com.automationprojects.common.SeleniumEasyConstants.*;
 
 
 public class RadioButtonDemoTest extends Common{
-	 @Test (priority=1)
+	 @Test
 	  public void getRadioBtnPage() {
 		  try{
 			  driver.findElement(By.xpath(XPATH_INPUT_FORM)).click();
@@ -27,14 +27,13 @@ public class RadioButtonDemoTest extends Common{
 			  Assert.fail();
 		  }
 	  }
-	 @Test (priority=2)
+	 @Test (dependsOnMethods="getRadioBtnPage")
 	 public void radioBtnDemo(){
 		 try{
-		 
 			 List<WebElement> radioBtns=driver.findElements(By.xpath(XPATH_RB_SINGLE_GRP));
 			 System.out.println(radioBtns.size());
 			 for(int i=0; i<radioBtns.size();i++){
-				 System.out.println(radioBtns.get(i).getAttribute("value"));
+				 //System.out.println(radioBtns.get(i).getAttribute("value"));
 				 if (radioBtns.get(i).getAttribute("value")==RB_VALUE){
 					 radioBtns.get(i).click();
 				 }

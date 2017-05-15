@@ -1,0 +1,36 @@
+aaa2017-04-19 16:16:55,327 TRACE c.a.a.LoginAmazonDataDriven [main] Application starting
+2017-04-19 16:16:57,927 INFO c.a.a.LoginAmazonDataDriven [main] failed
+2017-04-19 16:16:58,246 INFO c.a.a.LoginAmazonDataDriven [main] failed
+2017-04-19 16:26:31,563 TRACE [main] Application starting
+2017-04-19 16:26:34,454 INFO [main] failed
+2017-04-19 16:26:34,773 INFO [main] failed
+2017-04-19 16:27:09,491 TRACE [main] Application starting
+2017-04-19 16:27:12,143 INFO [main] failed
+2017-04-19 16:27:12,421 INFO [main] failed
+2017-04-20 12:44:17,981 TRACE [main] Application starting
+2017-04-20 12:45:27,919 TRACE [main] Application starting
+2017-04-20 12:49:16,225 TRACE [main] Application starting
+2017-04-20 12:50:09,453 TRACE [main] Application starting
+2017-04-20 12:51:19,601 TRACE [main] Application starting
+2017-04-20 12:52:40,614 TRACE [main] Application starting
+2017-04-20 12:55:18,865 TRACE [main] Application starting
+2017-04-20 12:57:20,862 TRACE [main] Application starting
+2017-04-20 13:00:33,281 TRACE [main] Application starting
+2017-04-20 13:00:35,946 INFO [main] failed
+2017-04-20 13:00:35,983 INFO [main] failed
+2017-04-20 13:00:37,711 INFO [main] failed
+2017-04-20 13:00:38,067 INFO [main] failed
+2017-04-20 13:00:38,335 INFO [main] failed
+2017-04-20 13:00:38,587 INFO [main] failed
+2017-04-20 13:03:23,460 TRACE [main] Application starting
+2017-04-20 13:10:15,859 TRACE [main] Application starting
+2017-04-20 13:12:28,129 TRACE [main] Application starting
+2017-04-20 13:16:32,580 TRACE [main] Application starting
+2017-04-20 13:17:43,596 TRACE [main] Application starting
+2017-04-20 13:18:13,315 TRACE [main] Application starting
+2017-04-20 13:18:18,865 INFO [main] failed
+2017-04-20 13:18:19,844 INFO [main] failed
+2017-04-20 13:18:21,038 INFO [main] failed
+2017-04-20 13:18:21,971 INFO [main] failed
+2017-04-20 13:18:22,041 INFO [main] failed
+2017-04-20 13:18:22,083 INFO [main] failed

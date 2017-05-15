@@ -6,19 +6,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry excluding="src/main/java/|src/test/java/" kind="src" path=""/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
-		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -32,5 +23,21 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/InstallSoftware/apache-log4j-2.8.2-bin/log4j-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/apache-log4j-2.8.2-bin/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/poi-3.16/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/InstallSoftware/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
